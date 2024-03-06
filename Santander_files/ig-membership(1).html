@@ -1,0 +1,38 @@
+
+<!-- saved from url=(0173)https://us.creativecdn.com/ig-membership?ntk=11-_qFuxYMKICgG9f02e_ERrGBqLa3uYeaNL8JqR3BNhOlk6O3Lig4q7JqqXLFMueC-X6aY_w9I4SX9UkQCZpo2uqGguh-Igg3n7nHYnlEcHsXu5Q4L5hpYIyqH7c_UE -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+<script>
+    if (navigator.joinAdInterestGroup) {
+        const addIgScript = document.createElement('script');
+        let src = null;
+        if (navigator.runAdAuction) {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=-uj6p3sqTzwUtMYXOWtPau4R_63i_zEd5_4ysl_pf7NsOseT9Q3BCMRryqS08ZBVNMcAvb6-ULuRTVHOfwi8xDI3hbYx2CKqgdLKehHLIVtxoZLWCbeuNnRjCCBWB0A3';
+            } else {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=-uj6p3sqTzwUtMYXOWtPau4R_63i_zEd5_4ysl_pf7NsOseT9Q3BCMRryqS08ZBVNMcAvb6-ULuRTVHOfwi8xDI3hbYx2CKqgdLKehHLIVs4UeV8Z0eGOp8yFXZcepjz';
+            }
+        } else {
+            if (window.FencedFrameConfig || 'src' in document.createElement('fencedframe')) {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=-uj6p3sqTzwUtMYXOWtPau4R_63i_zEd5_4ysl_pf7NsOseT9Q3BCMRryqS08ZBVNMcAvb6-ULuRTVHOfwi8xDI3hbYx2CKqgdLKehHLIVsCzZU4VmFCZyRBrQTj1HH3';
+            } else {
+                src = 'https://us.creativecdn.com/ig-membership?ntk=-uj6p3sqTzwUtMYXOWtPau4R_63i_zEd5_4ysl_pf7NsOseT9Q3BCMRryqS08ZBVNMcAvb6-ULuRTVHOfwi8xDI3hbYx2CKqgdLKehHLIVthZOAa9LY3hjblUSb2SmXo';
+            }
+        }
+
+        if ('cookieDeprecationLabel' in navigator) {
+            navigator.cookieDeprecationLabel.getValue().then((label) => {
+                if (label) {
+                    src += "&lbl=" + label;
+                }
+
+                addIgScript.setAttribute('src', src);
+                document.body.appendChild(addIgScript);
+            });
+        } else {
+            addIgScript.setAttribute('src', src);
+            document.body.appendChild(addIgScript);
+        }
+    }
+</script>
+
+</body></html>
